@@ -1,0 +1,28 @@
+html{
+    line-height: 2em;
+    font-family:sans-serif;
+    font-size: 1.2em;
+}
+header{
+    background-color: magenta;
+}
+body{
+    background-color: silver;
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+input, label{
+    margin: auto; 
+    display: block;
+    width: 80%;
+}
+input{
+    padding: .5em;
+}
+#subbutton{
+   margin-top: 1em;
+   width: 65%;
+}
+
