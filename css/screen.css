@@ -25,4 +25,34 @@ input{
    margin-top: 1em;
    width: 65%;
 }
+#wrapper{
+    display: block;
+    margin: auto;
+}
 
+@media only screen and (min-width : 480px) {
+    html{
+        font-size: 1.1em;
+        margin: 1em;
+    }
+    input{
+        padding: 0.5em;
+        width: 15em;
+    }
+    label{
+        width: 8em;
+        text-align: right;
+    }
+    input, label{
+        display: inline-block;
+    }
+    #subbutton{
+        padding: 0.5em;
+        width: 15em;
+        display: block;   
+    }
+    #wrapper{
+        width: 25em;
+    }
+    
+}
